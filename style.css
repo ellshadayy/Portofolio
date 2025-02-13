@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+}
+
+/* Navigasi */
+.navigasi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(90deg, #023047, #209ebb);
+  color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.navigasi .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navigasi ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navigasi ul li {
+  margin-left: 20px;
+}
+
+.navigasi ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navigasi ul li a:hover {
+  color: #bfdbfe;
+}
+
+/* Banner */
+.banner {
+  height: 100vh;
+  background: linear-gradient(180deg, #209ebb, #023047);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.banner h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.banner p {
+  font-size: 18px;
+}
+
+/* Tentang Saya */
+.tentang {
+  padding: 80px 20px;
+  background-color: #e0f2fe;
+  text-align: center;
+}
+
+.tentang h2 {
+  color: #023047;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* Karya */
+.karya {
+  padding: 80px 20px;
+  background-color: #f0f4f8;
+  text-align: center;
+}
+
+.karya h2 {
+  color: #023047;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.galeri {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.karya-item img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border: 5px solid #023047;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.karya-item img:hover {
+  transform: scale(1.05);
+}
+
+/* Kontak */
+.kontak {
+  padding: 80px 20px;
+  background-color: #e0f2fe;
+  text-align: center;
+}
+
+.kontak h2 {
+  color: #023047;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.kontak p {
+  font-size: 18px;
+}
+
+.social-links {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.social-icon img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-icon img:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+}
+
+/* Footer */
+.footer {
+  background-color: #023047;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
