@@ -1,60 +1,61 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portofolio</title>
+  <title>Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="navigasi">
-    <div class="logo">Portofolio Elsha</div>
+  <header id="navbar">
     <nav>
-      <ul>
-        <li><a href="#tentang-saya">Tentang Saya</a></li>
-        <li><a href="#karya">Karya</a></li>
-        <li><a href="#kontak">Kontak</a></li>
+      <ul class="nav-list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="banner">
-    <h1>Selamat Datang</h1>
-    <p>Jelajahi karya dan perjalanan saya dalam dunia kreatif.</p>
-  </section>
-
-  <section id="tentang-saya" class="tentang">
-    <h2>Tentang Saya</h2>
-    <p>Saya adalah mahasiswa Informatika. Saat ini sedang mendalami peran dan tanggungjawab seorang frontend developer. Saya menguasai beberapa soft-skill seperti kepemimpinan, kerja sama yang baik, komunikasi, dan berkolaborasi. Saya memiliki ilmu yang mumpuni dalam beberapa bahasa pemrograman seperti Go, C++, dan Python </p>
-  </section>
-  <!--Tambahin Foto-->
-
-  <section id="karya" class="karya">
-    <h2>Karya</h2>
-    <div class="galeri">
-      <div class="karya-item"><img src="https://via.placeholder.com/300" alt="Karya 1"></div>
-      <div class="karya-item"><img src="https://via.placeholder.com/300" alt="Karya 2"></div>
-      <div class="karya-item"><img src="https://via.placeholder.com/300" alt="Karya 3"></div>
+  <section id="about" class="section">
+    <div class="profile">
+      <img src="pic-profile.jpg" alt="pic-profile" class="profile-pic">
+      <h1>Elshaday Debora Sambeka</h1>
+      <p>Welcome to my portfolio</p>
+      <p>Hi, I'm Elsha! I’m passionate about frontend development with a focus on design and user experience. I also have knowledge of programming languages such as C++ and Go. Let’s collaborate to create engaging and functional digital solutions!</p>
     </div>
   </section>
 
-  <section id="kontak" class="kontak">
-    <h2>Kontak</h2>
-    <p>Ingin bekerja sama atau memiliki pertanyaan? </p>
+  <section id="projects" class="section">
+    <h2>My Projects</h2>
+    <div class="project-list">
+      <div class="project-item">
+        <h3>BMI Calculator</h3>
+        <p>A BMI calculator measures body fat based on height and weight to assess weight categories.</p>
+        <a href="https://github.com/revou-fundamental-course/20-jan-25-ellshadayy" target="_blank">View on GitHub</a>
+      </div>
+      <div class="project-item">
+        <h3>Student Course Registration Data</h3>
+        <p>Contains data on student course selections and registration details.</p>
+        <a href="https://github.com/ellshadayy/Tubes-Strukdat" target="_blank">View on GitHub</a>
+      </div>
+      <div class="project-item">
+        <h3>An application for managing doctors' schedules in hospitals.</h3>
+        <p>An application built using Go, to manage doctor's schedules in hospitals.</p>
+        <a href="https://github.com/ellshadayy/Tubes-Alpro" target="_blank">View on GitHub</a>
+      </div>
+    </div>
   </section>
 
-  <div class="social-links">
-    <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" class="social-icon">
-      <img src="linkedin-logo.png" alt="LinkedIn" />
-    </a>
-    <a href="mailto:your-email@example.com" class="social-icon">
-      <img src="email-logo.png" alt="Email" />
-    </a>
-  </div>
-  <!--Perbaiki Logo dan link-->
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:elshaa64@gmail.com">elshaa64@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/elshaday-sambeka-578302210/" target="https://www.linkedin.com/in/elshaday-sambeka-578302210/">Elshaday Sambeka</a></p>
+    <p>GitHub: <a href="https://github.com/ellshadayy">ellshadayy</a></p>
+  </section>
 
-  <footer class="footer">
-    <p>&copy; 2025 Portofolio Elsha</p>
+  <footer>
+    <p>&copy; 2025 Mini Project-based Internship by luarsekolah</p>
   </footer>
 </body>
 </html>
